@@ -141,10 +141,39 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
-.dice {
+input {    
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    transform: translateX(-40%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.input-field {
+    text-align: center;
+    top: 515px;
+}
+
+.dice-0 {
     position: absolute;
     left: 50%;
-    top: 178px;
+    top: 150px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+.dice-1 {
+    position: absolute;
+    left: 50%;
+    top: 265px;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
